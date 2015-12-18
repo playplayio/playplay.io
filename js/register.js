@@ -1,12 +1,13 @@
 $(document).ready(function() {
 
   var error = function(err) {
-    console.log(err);
     $('#messages').text(err.statusText || err.responseText || err);
+    $('header').hide();
   };
 
   var success = function(text) {
     $('#messages').text(text);
+    $('header').hide();
   };
 
   // Slack OAuth
