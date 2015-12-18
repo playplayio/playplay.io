@@ -15,7 +15,7 @@ $(document).ready(function() {
   if (code) {
     $.ajax({
       type: "POST",
-      url: "http://pong.playplay.io/api/teams",
+      url: "http://pong.playplay.io/teams",
       data: {
         code: code
       },
