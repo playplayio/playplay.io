@@ -2,11 +2,13 @@ $(document).ready(function() {
 
   var error = function(err) {
     $('#messages').text(err.statusText || err.responseText || err);
+    $('#register').show();
     $('header').hide();
   };
 
   var success = function(text) {
     $('#messages').text(text);
+    $('#register').show();
     $('header').hide();
   };
 
