@@ -8,7 +8,7 @@ $(document).ready(function() {
         message = rc.message;
         if (message == 'invalid_code') {
           message = 'The code returned from the OAuth workflow was invalid.'
-        } else if (message == 'already_used') {
+        } else if (message == 'code_already_used') {
           message = 'The code returned from the OAuth workflow has already been used.'
         }
       }
