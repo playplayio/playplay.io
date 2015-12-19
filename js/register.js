@@ -35,7 +35,7 @@ $(document).ready(function() {
         code: code
       },
       success: function(data) {
-        success('Team successfully registered! Invite @pong to a #pong channel.');
+        success('Team successfully registered! Invite @pongbot to a #pong channel.');
       },
       error: error
     });
