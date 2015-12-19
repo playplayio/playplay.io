@@ -4,20 +4,20 @@
 
 Disable your current bot integration, stop your bot application.
 
-# Register Team on PlayPlay.io
+### Register Team on PlayPlay.io
 
 Go to [playplay.io](http://playplay.io) and register your team.
 
 ### Find the Database Config
 
 ```
-$ heroku config --app=artsy-ping-pong-gamebot
+$ heroku config --app=your-gamebot-instance
 ```
 
 ### Dump the Data
 
 ```
-mongodump -u ... -p ... --host ds033652-a0.mongolab.com --port 33652 --db heroku_app123
+mongodump -u ... -p ... --host xyz.mongolab.com --port 33652 --db heroku_app123
 ```
 
 Share the data dump with me, e-mail dblock[at]dblock[dot]org, mention your team name.
