@@ -1,7 +1,19 @@
 $(document).ready(function() {
 
-  var error = function(err) {
-    $('#messages').text(err.statusText || err.responseText || err);
+  var error = function(xhr) {
+    var message;
+    if (xhr.responseText) {
+      var rc = JSON.parse(xhr.responseText);
+      if (rc && rc.message) {
+        message = rc.message;
+        if (message == 'invalid_code') {
+          message = 'The code returned from the OAuth workflow was invalid.'
+        } else if (message == 'already_used') {
+          message = 'The code returned from the OAuth workflow has already been used.'
+        }
+      }
+    }
+    $('#messages').text(message || xhr.statusText || xhr.responseText || 'Unexpected Error');
     $('#register').show();
     $('header').hide();
   };
