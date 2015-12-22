@@ -27,15 +27,16 @@ $(document).ready(function() {
   // Slack OAuth
 
   var code = $.url('?code')
-  if (code) {
+  var game = $.url('?game')
+  if (code && game && (game == 'pong' || game == 'chess')) {
     $.ajax({
       type: "POST",
-      url: "http://pong.playplay.io/teams",
+      url: "http://" + game + ".playplay.io/teams",
       data: {
         code: code
       },
       success: function(data) {
-        success('Team successfully registered! Invite @pongbot to a #pong channel.');
+        success('Team successfully registered! Create a #' + game + ' channel and invite @' + game + 'bot to it.');
       },
       error: error
     });

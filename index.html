@@ -6,10 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ping-pong tracking for Slack teams.">
-    <meta name="author" content="">
+    <meta name="description" content="Ping-pong and chess tracking for Slack teams.">
 
-    <title>PlayPlay.io - Slack Ping-Pong</title>
+    <title>PlayPlay.io: Slack Ping-Pong and Chess</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,13 +55,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#game">The Game</a>
+                        <a class="page-scroll" href="#game">The Games</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#oss">API &amp; Open Source</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" target="_blank" href="https://twitter.com/playplayio">Follow Us</a>
                     </li>
                 </ul>
             </div>
@@ -74,10 +76,22 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Got Slack and a Ping-Pong table?</div>
-                <div class="intro-heading">PONGBOT</div>
-                <a class="page-scroll" href="https://slack.com/oauth/authorize?scope=bot&client_id=17032864353.17033629782"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
+            <div class="row">
+                <div class="intro-text">
+                    <div class="intro-lead-in">Got Slack and Ping-Pong or Chess?</div>
+                    <div class="intro-lead-in">Become a Team Captain!</div>
+                    <div class="row spacer">
+                    <div class="col-lg-6 text-center">
+                        <div class="intro-heading">PONGBOT</div>
+                        <a class="page-scroll" href="https://slack.com/oauth/authorize?scope=bot&client_id=17032864353.17033629782"><img alt="Add Pongbot to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="intro-heading">CHESSBOT</div>
+                        <a class="page-scroll" href="https://slack.com/oauth/authorize?scope=bot&client_id=17032864353.17238753411"><img alt="Add Chessbot to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
+                    </div>
+                </div>
+                <div class="row spacer">
+                </div>
             </div>
         </div>
     </header>
@@ -97,15 +111,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">The Game</h2>
-            <h3 class="section-subheading text-muted">It's easy to join. Create a <b>#pong</b> channel and invite <b>@pongbot</b> to it. Each user says "pongbot register" ...</h3>
+            <h2 class="section-heading">The Games</h2>
+            <h3 class="section-subheading text-muted">It's easy to join. Create a channel (<b>#pong</b> or <b>#chess</b>) and invite the bot (<b>@pongbot</b> or <b>chessbot</b>) to it.<br><br>Each user that wants to play should say <b>@pongbot register</b> or <b>@chessbot register</b> ...</h3>
             <div><img src='img/register.gif'></div>
             <h3 class="section-subheading text-muted">... then challenges someone to a match ...</h3>
             <div><img src='img/game.gif'></div>
-            <h3 class="section-subheading text-muted">... the loser says "pongbot lost".</h3>
+            <h3 class="section-subheading text-muted">... the loser says <b>pongbot lost</b>, in a draw both say <b>chessbot draw</b>.</h3>
             <div><img src='img/leaderboard.png'></div>
             <h3 class="section-subheading text-muted">Check your rankings with "pongbot leaderboard" and "pongbot rank".</h3>
-            <div>See <a href='https://github.com/dblock/slack-gamebot#usage'>detailed usage</a> for other commands.</div>
+            <h3 class="section-subheading text-muted">See <a href='https://github.com/dblock/slack-gamebot#usage'>detailed usage</a> for other commands.</h3>
           </div>
         </div>
       </div>
@@ -120,7 +134,7 @@
             <h3 class="section-subheading text-muted"><a href="https://github.com/playplayio">Fork us on Github</a></h3>
             <h4 class="service-heading">PlayPlay.io has an API</h4>
             <div><img src='img/api.png'></div>
-            <h3 class="section-subheading text-muted">Try <a href="http://pong.playplay.io">pong.playplay.io</a>.</h3>
+            <h3 class="section-subheading text-muted">Try <a href="http://pong.playplay.io">pong.playplay.io</a> and <a href="http://chess.playplay.io">chess.playplay.io</a>.</h3>
           </div>
         </div>
       </div>
@@ -131,10 +145,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
+                    <h2 class="section-heading">About Us</h2>
                     <h3 class="section-subheading text-muted">
-                        Playplay is work in progress. It's free for now, and we plan to make it dirt cheap just enough to support a running service.
-                        <br />
+                        Playplay is <a href='http://code.dblock.org'>@dblock</a>'s pet project and is work in progress.
+                        <br /><br />
+                        It's free for now, and I plan to make it either dirt cheap or donation-based just enough to support a running service.
+                        <br /><br />
                         If you want to migrate from a single instance of slack-gamebot to playplay, see <a href='https://github.com/playplayio/playplay.io/blob/gh-pages/MIGRATE.md'>this document</a>.
                     </h3>
                 </div>

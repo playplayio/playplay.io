@@ -147,3 +147,4 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 img::selection { background: 0 0 }
 img::-moz-selection { background: 0 0 }
 body { webkit-tap-highlight-color: #fed136 }
+.spacer { margin-top: 120px; }
