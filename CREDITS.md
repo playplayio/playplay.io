@@ -10,4 +10,4 @@ Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [
 
 # Favicon, Twitter Pic
 
-Icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com), is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+Icons made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com), is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/).
