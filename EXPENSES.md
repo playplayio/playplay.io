@@ -12,4 +12,4 @@ Playplay.io is made possible by sponsors and open-source contributors. [Donate $
 
 ### Heroku
 
-Current estimated costs are 7$ for a hobby dyno and 18$ for Shared Cluster 1GB MongoLab MongoDB, total 25$ per month per game, so 2 x (25$ x 12) = $600 a year.
+Current estimated costs are 7$ for a hobby dyno and 18$ for Shared Cluster 1GB MongoLab MongoDB, total 25$ per month per game, so 2 x (25$ x 12) = $600 a year. I'd like to [add billiards soon](https://github.com/playplayio/playplay.io/issues/1), making that 3x. The Heroku bill is likely to need to grow to scale with demand, too.
