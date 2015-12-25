@@ -1,6 +1,6 @@
 ### Playplay.io Expenses
 
-Playplay.io is made possible by sponsors and open-source contributors. [Donate $100](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEXDDK46JKGWN) and add your logo on [playplay.io](http://playplay.io) for a year. It's cheaper than running your own instance. All expenses and sponsor money is listed here.
+Playplay.io is made possible by sponsors and open-source contributors. [Donate $100](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEXDDK46JKGWN) and add your logo on [playplay.io](http://playplay.io) for a year. It's cheaper than running your own instance. All expenses and sponsor money are listed here.
 
 ### Sponsors
 
