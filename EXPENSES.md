@@ -2,9 +2,13 @@
 
 Playplay.io is made possible by sponsors and open-source contributors. [Donate $100](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEXDDK46JKGWN) and add your logo on [playplay.io](http://playplay.io) for a year. It's cheaper than running your own instance. All expenses and sponsor money is listed here.
 
+### Sponsors
+
+* 2015-12-25: +100$, [Artsy.net](http://www.artsy.net), [@artsyopensource](https://twitter.com/artsyopensource), #3AF52004F51919320.
+
 ### Domain Registration (DNSimple)
 
-* 2015-12-18: 50$ - Register playplay.io, invoice #395251-5598.
+* 2015-12-18: -50$ - Register playplay.io, invoice #395251-5598.
 
 ### Heroku
 
