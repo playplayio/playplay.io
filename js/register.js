@@ -28,12 +28,13 @@ $(document).ready(function() {
 
   var code = $.url('?code')
   var game = $.url('?game')
-  if (code && game && (game == 'pong' || game == 'chess')) {
+  if (code && game && (game == 'pong' || game == 'chess' || game = 'pool')) {
     $.ajax({
       type: "POST",
       url: "http://" + game + ".playplay.io/teams",
       data: {
-        code: code
+        code: code,
+        game: game
       },
       success: function(data) {
         success('Team successfully registered! Create a #' + game + ' channel and invite @' + game + 'bot to it.');
