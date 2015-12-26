@@ -28,7 +28,7 @@ $(document).ready(function() {
 
   var code = $.url('?code')
   var game = $.url('?game')
-  if (code && game && (game == 'pong' || game == 'chess' || game = 'pool')) {
+  if (code && game && (game == 'pong' || game == 'chess' || game == 'pool')) {
     $.ajax({
       type: "POST",
       url: "http://" + game + ".playplay.io/teams",
