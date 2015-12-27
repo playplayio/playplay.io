@@ -32,7 +32,7 @@ $(document).ready(function() {
     success('Working, please wait ...')
     $.ajax({
       type: "POST",
-      url: "http://" + game + ".playplay.io/teams",
+      url: "http://bots.playplay.io/teams",
       data: {
         code: code,
         game: game
