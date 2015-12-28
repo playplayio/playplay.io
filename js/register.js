@@ -1,6 +1,21 @@
+var PlayPlay = {};
+
 $(document).ready(function() {
 
-  var error = function(xhr) {
+  PlayPlay.message = function(text) {
+    $('#messages').fadeOut('slow', function() {
+      $('#messages').fadeIn('slow').html(text)
+    });
+  };
+
+  PlayPlay.register = function(text) {
+    $('.navbar').fadeOut('slow');
+    $('header').fadeOut('slow');
+    $('section').fadeOut('slow');
+    $('#register').show();
+  };
+
+  PlayPlay.error = function(xhr) {
     var message;
     if (xhr.responseText) {
       var rc = JSON.parse(xhr.responseText);
@@ -13,23 +28,16 @@ $(document).ready(function() {
         }
       }
     }
-    $('#messages').text(message || xhr.statusText || xhr.responseText || 'Unexpected Error');
-    $('#register').show();
-    $('header').hide();
-  };
 
-  var success = function(text) {
-    $('#messages').text(text);
-    $('#register').show();
-    $('header').hide();
+    PlayPlay.message(message || xhr.statusText || xhr.responseText || 'Unexpected Error');
   };
 
   // Slack OAuth
-
   var code = $.url('?code')
   var game = $.url('?game')
   if (code && game && (game == 'pong' || game == 'chess' || game == 'pool')) {
-    success('Working, please wait ...')
+    PlayPlay.register();
+    PlayPlay.message('Working, please wait ...');
     $.ajax({
       type: "POST",
       url: "http://bots.playplay.io/teams",
@@ -38,9 +46,9 @@ $(document).ready(function() {
         game: game
       },
       success: function(data) {
-        success('Team successfully registered! Create a #' + game + ' channel and invite @' + game + 'bot to it.');
+        PlayPlay.message('Team successfully registered!<br>Create a #' + game + ' channel on Slack and invite @' + game + 'bot to it.');
       },
-      error: error
+      error: PlayPlay.error
     });
   }
 });
