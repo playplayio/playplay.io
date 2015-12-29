@@ -5,6 +5,7 @@ Playplay.io is made possible by sponsors and open-source contributors. [Donate $
 ### Sponsors
 
 * 2015-12-25: +100$, [Artsy.net](http://www.artsy.net), [@artsyopensource](https://twitter.com/artsyopensource), #3AF52004F51919320.
+* 2015-12-29: +100$, [Kickstarter](https://www.kickstarter.com/backing-and-hacking), [@kickstarter](https://twitter.com/kickstarter), #8U483526XN2149408.
 
 ### Domain Registration (DNSimple)
 
