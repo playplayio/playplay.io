@@ -14,7 +14,7 @@ $(document).ready(function() {
         matches_count += game.matches_count;
       }
       $('#active_teams_count').hide().text(
-        active_teams_count + " active teams with " + users_count + " users and " + matches_count + ' games played.'
+        active_teams_count + " active teams with " + matches_count + ' games played by ' + users_count + " players!"
       ).fadeIn('slow');
     },
   });
