@@ -12,7 +12,8 @@ All expenses and sponsor money are listed here.
 | 2015-12-30 | Heroku invoice, December 2015 | $16.60 | |
 | 2016-01-31 | Heroku invoice, January 2016 | $27.90 | |
 | 2015-02-09 | Platform credits by [DigitalOcean](https://www.digitalocean.com) | | $50 |
-|            |             |         |  **+$155.50** |
+| 2016-03-11 | Heroku invoice, February 2016 | $15.68 | |
+|            |             |         |  **+$139.82** |
 
 #### Infrastructure
 
