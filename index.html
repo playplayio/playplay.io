@@ -75,9 +75,6 @@
                             <a class="page-scroll" href="#howtoplay">HowToPlay</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#play">Play</a>
-                        </li>
-                        <li>
                             <a class="page-scroll" href="#sponsors">Sponsors</a>
                         </li>
                         <li>
@@ -117,46 +114,49 @@
                         <h2 class="section-heading bg-light-sunny">Got Slack? Create your team!</h2>
                         <h4 id="active_teams_count" class="intro-lead-in">&nbsp;</h4>
                     </div>
-                    <div class="text-center">         
-                        <i class="material-icons md-48 circle_outline_orange">add_circle_outline</i>
+                    <div class="text-left">           
                         <p class="text_muted">Invite our game bots to your slack account and add friends to build your team! Follow the links below to sign up or login to slack account, register and add the bots for your favourite games. </p>
                     </div>
-                    <div class= "col-lg-12">
+                    <div class= "row col-lg-12">
                         <div class="col-md-3 text-center services-text-color">
                             <div class="intro-heading">
+                                <img class="img-responsive img-centered" src="img/pong.png" alt="" height="120" width="120"><br>
                                 PONG<br>
                                 <a class="add-to-slack" href="https://slack.com/oauth/authorize?scope=bot&amp;client_id=17032864353.17033629782"><img alt="Add Pongbot to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
                             </div>
                         </div>
                         <div class="col-md-3 text-center services-text-color">
                             <div class="intro-heading">
+                                <img class="img-responsive img-centered" src="img/chess.png" alt="" height="120" width="120"><br>
                                 CHESS<br>
                                 <a class="add-to-slack" href="https://slack.com/oauth/authorize?scope=bot&amp;client_id=17032864353.17238753411"><img alt="Add Chessbot to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
                             </div>
                         </div>
                         <div class="col-md-3 text-center services-text-color">
                             <div class="intro-heading">
+                                <img class="img-responsive img-centered" src="img/pool.png" alt="" height="120" width="120"><br>
                                 POOL<br>
                                 <a class="add-to-slack" href="https://slack.com/oauth/authorize?scope=bot&amp;client_id=17032864353.17415150503"><img alt="Add Poolbot to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
                             </div>
                         </div>
                         <div class="col-md-3 text-center services-text-color">
                             <div class="intro-heading">
+                                <img class="img-responsive img-centered" src="img/tic-tac-toe.png" alt="" height="120" width="120"><br>
                                 TICTACTOE<br>
                                 <a class="add-to-slack" href="https://slack.com/oauth/authorize?scope=bot&amp;client_id=17032864353.17513476357"><img alt="Add TicTacToe to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
                             </div>
                         </div>
                     </div>
                     <div class="row spacer"></div>
-                    <div class="text-muted text-center">         
-                        Follow our <a href="#howtoplay">tutorial.</a>
-                    </div>
+                    <h3 class="section-subheading text-muted text-center">       
+                        Follow our <a href="#howtoplay" target="_blank">tutorial.</a>
+                    </h3>
                 </div>
             </div>
         </section>
 
         <!-- This section describes how to use the bots -->
-        <section id="howtoplay" class="bg-light-gray">
+        <section id="howtoplay">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -213,27 +213,6 @@
                 <h3 class="section-subheading text-muted text-center">
                     See <a href='https://github.com/dblock/slack-gamebot#usage' target="_blank">detailed usage</a> for other commands.
                 </h3>
-            </div>
-        </section>
-
-        <section id="play">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Play</h2>
-                        <h3 class="section-subheading text-muted">It's easy to join. Create a channel (<b>#pong</b>, <b>#chess</b>, <b>#pool</b> or <b>#tictactoe</b>) and invite the bot (<b>@pongbot</b>, <b>@chessbot</b>, <b>@poolbot</b> or <b>@tictactoebot</b>) to it.<br><br>We'll just say <b>@bot</b> below, but you should address your bot as <b>@pongbot</b>, <b>@chessbot</b>, <b>@poolbot</b> or <b>@tictactoebot</b>.
-                        <br><br>Every user that wants to play says <b>@bot register</b> (so <b>@pongbot register</b>, <b>@chessbot register</b> or <b>@poolbot register</b>) ...</h3>
-                        <div><img src='img/register.gif'></div>
-                        <h3 class="section-subheading text-muted">... then challenges someone to a match with <b>@bot challenge @opponent</b><br><br>
-                        ... accept a game with <b>@bot accept</b> and go play ...
-                        <br><br>... the loser says <b>@bot lost</b>, in a draw both say <b>@bot draw</b>.</h3>
-                        <div><img src='img/game.gif'></div>
-                        <h3 class="section-subheading text-muted">Check your rankings with <b>@bot leaderboard 10</b> and <b>@bot rank</b>.
-                        <br><img src='img/leaderboard.png'></h3>
-                        <h3 class="section-subheading text-muted">Try <b>@bot help</b> for help, that is <b>@pongbot help</b>, <b>@chessbot help</b>, <b>@poolbot help</b> or <b>@tictactoebot help</b>.</h3>
-                        <h3 class="section-subheading text-muted">See <a href='https://github.com/dblock/slack-gamebot#usage' target="_blank">detailed usage</a> for other commands.</h3>
-                    </div>
-                </div>
             </div>
         </section>
         
