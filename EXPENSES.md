@@ -1,16 +1,20 @@
 ### Playplay.io Expenses
 
-Playplay.io is made possible by sponsors and open-source contributors. [Donate $100](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEXDDK46JKGWN) and add your logo on [playplay.io](http://playplay.io) for a year. It's cheaper than running your own instance. All expenses and sponsor money are listed here.
+Playplay.io is made possible by sponsors and open-source contributors. [Donate $100](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEXDDK46JKGWN) and add your logo on [playplay.io](http://playplay.io) for a year. It's cheaper than running your own instance. 
 
-### Sponsors
+All expenses and sponsor money are listed here.
 
-* 2015-12-25: +100$, [Artsy.net](http://www.artsy.net), [@artsyopensource](https://twitter.com/artsyopensource), #3AF52004F51919320.
-* 2015-12-29: +100$, [Kickstarter](https://www.kickstarter.com/backing-and-hacking), [@kickstarter](https://twitter.com/kickstarter), #8U483526XN2149408.
+| Date       | Description | Debit | Credit |
+-------------|-------------|:-------:|:--------:|
+| 2015-12-18 | DNSimple domain registration for playplay.io, invoice #395251-5598 | 50$ |
+| 2015-12-25 | Sponsored by [Artsy.net](http://www.artsy.net), [@artsyopensource](https://twitter.com/artsyopensource), #3AF52004F51919320 | | $100 |
+| 2015-12-29 | Sponsored by [Kickstarter](https://www.kickstarter.com/backing-and-hacking), [@kickstarter](https://twitter.com/kickstarter), #8U483526XN2149408 | | $100 |
+| 2015-12-30 | Heroku invoice, December 2015 | $16.60 | |
+| 2016-01-31 | Heroku invoice, January 2016 | $27.90 | |
+| 2015-02-09 | Platform credits by [DigitalOcean](https://www.digitalocean.com) | | $50 |
+| 2016-03-11 | Heroku invoice, February 2016 | $15.68 | |
+|            |             |         |  **+$139.82** |
 
-### Domain Registration (DNSimple)
+#### Infrastructure
 
-* 2015-12-18: -50$ - Register playplay.io, invoice #395251-5598.
-
-### Heroku
-
-Current estimated costs are 7$ for a hobby dyno and 18$ for Shared Cluster 1GB MongoLab MongoDB, total 25$ per month, so 25$ x 12 = $300 a year. The Heroku bill is likely to need to grow to scale with demand.
+PlayPlay.io used to run on Heroku and now runs on a 20$ droplet at [DigitalOcean](https://m.do.co/c/5b26011f9a9b).

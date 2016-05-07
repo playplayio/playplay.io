@@ -158,3 +158,5 @@ body { webkit-tap-highlight-color: #fed136 }
 .alert { font-size: 18px; font-weight: bold; }
 section img { max-width: 100%; }
 a.sponsor img { margin: 15px; }
+.up { color: #33CC00; }
+.down { color: #FF6600; }
