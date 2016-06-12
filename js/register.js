@@ -40,7 +40,7 @@ $(document).ready(function() {
     PlayPlay.message('Working, please wait ...');
     $.ajax({
       type: "POST",
-      url: "http://bots.playplay.io/teams",
+      url: "https://bots.playplay.io/teams",
       data: {
         code: code,
         game: game

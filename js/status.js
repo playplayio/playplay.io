@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $.ajax({
     type: "GET",
-    url: "http://bots.playplay.io/status",
+    url: "https://bots.playplay.io/status",
     success: function(data) {
       var active_teams_count = 0;
       var users_count = 0;
